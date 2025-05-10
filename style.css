@@ -1,0 +1,85 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'MaruBuri', serif;
+  background-color: #fef7ff;
+  color: #333;
+  margin: 0;
+  padding: 0;
+  padding-top: 70px;
+  text-align: center;
+}
+
+.navbar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: #ffe0ea;
+  padding: 10px 0;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+  z-index: 1000;
+}
+
+.navbar nav a {
+  margin: 0 20px;
+  text-decoration: none;
+  color: #d63384;
+  font-weight: bold;
+  font-size: 1.1em;
+}
+
+.navbar nav a:hover {
+  text-decoration: underline;
+}
+
+h1 {
+  font-size: 2.5em;
+  margin-bottom: 40px;
+}
+
+h2 {
+  margin-top: 40px;
+  color: #444;
+}
+
+p {
+  font-size: 1.1em;
+  margin: 10px 0 30px;
+}
+
+button {
+  background-color: #ffb6c1;
+  border: none;
+  padding: 15px 30px;
+  font-size: 1.2em;
+  border-radius: 12px;
+  cursor: pointer;
+  font-family: 'MaruBuri', serif;
+}
+
+button:hover {
+  background-color: #ff8fa3;
+}
+
+.release-box {
+  background-color: #fff0f5;
+  display: inline-block;
+  padding: 20px 30px;
+  border-radius: 16px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+  margin-top: 20px;
+}
+
+.release-box .version {
+  font-weight: bold;
+  font-size: 1.1em;
+  margin-bottom: 5px;
+}
+
+.release-box .filename {
+  color: #666;
+  margin-bottom: 15px;
+}
